@@ -353,3 +353,47 @@ records/
 csv_files/
 AiPD_proj1_ng/aipd1/node_modules/
 AiPD_proj1_ng/aipd1/.angular/
+
+
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# Compiled output
+AiPD_proj1_ng/aipd1/dist
+AiPD_proj1_ng/aipd1/tmp
+AiPD_proj1_ng/aipd1/out-tsc
+AiPD_proj1_ng/aipd1/bazel-out
+
+# Node
+AiPD_proj1_ng/aipd1/node_modules
+AiPD_proj1_ng/aipd1/npm-debug.log
+AiPD_proj1_ng/aipd1/yarn-error.log
+
+# IDEs and editors
+AiPD_proj1_ng/aipd1/.idea/
+AiPD_proj1_ng/aipd1/.project
+AiPD_proj1_ng/aipd1/.classpath
+AiPD_proj1_ng/aipd1/.c9/
+AiPD_proj1_ng/aipd1/*.launch
+AiPD_proj1_ng/aipd1/.settings/
+AiPD_proj1_ng/aipd1/*.sublime-workspace
+
+# Visual Studio Code
+AiPD_proj1_ng/aipd1/.vscode/*
+AiPD_proj1_ng/aipd1/!.vscode/settings.json
+AiPD_proj1_ng/aipd1/!.vscode/tasks.json
+AiPD_proj1_ng/aipd1/!.vscode/launch.json
+AiPD_proj1_ng/aipd1/!.vscode/extensions.json
+AiPD_proj1_ng/aipd1/.history/*
+
+# Miscellaneous
+AiPD_proj1_ng/aipd1/.angular/cache
+AiPD_proj1_ng/aipd1/.sass-cache/
+AiPD_proj1_ng/aipd1/connect.lock
+AiPD_proj1_ng/aipd1/coverage
+AiPD_proj1_ng/aipd1/libpeerconnection.log
+AiPD_proj1_ng/aipd1/testem.log
+AiPD_proj1_ng/aipd1/typings
+
+# System files
+AiPD_proj1_ng/aipd1/.DS_Store
+AiPD_proj1_ng/aipd1/Thumbs.db
