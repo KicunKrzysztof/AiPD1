@@ -351,6 +351,5 @@ MigrationBackup/
 
 records/
 csv_files/
-/AiPD_proj1_ng/aipd1/node_modules/
-/AiPD_proj1_ng/aipd1/node_modules/.angular/
-
+AiPD_proj1_ng/aipd1/node_modules/
+AiPD_proj1_ng/aipd1/node_modules/.angular/
