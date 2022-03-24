@@ -1,0 +1,17 @@
+<mat-card class="content">
+    <mat-card-title>{{data.filename}}</mat-card-title>
+    <mat-card-content>
+        <app-detail-chart [title]="'Short Time Energy'"[chartData]="data.ste"></app-detail-chart>
+        <app-detail-chart [title]="'Volume'"[chartData]="data.volume"></app-detail-chart>
+        <app-detail-chart [title]="'Zero Crossing Rate'"[chartData]="data.zcr"></app-detail-chart>
+        <app-detail-chart [title]="'Silent Ratio'"[chartData]="data.sr"></app-detail-chart>
+        <app-detail-chart [title]="'General chart'"[chartData]="data.chart"></app-detail-chart>
+        <app-detail-table [data]="data"></app-detail-table>
+    </mat-card-content>
+</mat-card>
+<mat-card>
+    <div style="text-align: center">
+        <button [routerLink]="['']" mat-button style="margin: auto">WRÓC</button>
+        <button (click)="save()" mat-button style="margin: auto">ZAPISZ CSV</button>
+    </div>
+</mat-card>

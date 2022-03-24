@@ -1,0 +1,20 @@
+<mat-card>
+    <mat-card-title-group>
+        <mat-card-title>{{data.filename}}</mat-card-title>
+    </mat-card-title-group>
+    
+    <mat-card-content>
+        <div class="content">
+            <app-main-chart [chartData]="data.chart"></app-main-chart>
+            <div class="subcontent">
+                <app-autocomplete (filenameEmiter)="newFilename($event)"></app-autocomplete>
+                <app-detail-table [data]="data"></app-detail-table>
+            </div>
+        </div>
+    </mat-card-content>
+    <div style="text-align: center">
+        <button (click)="remove()" mat-button style="margin: auto">USUŃ</button>
+        <button (click)="save()" mat-button style="margin: auto">ZAPISZ CSV</button>
+        <a [routerLink]="['details', chartIndex]" routerLinkActive="active"><button mat-button style="margin: auto">SZCZEGÓŁY</button></a>
+    </div>
+</mat-card>

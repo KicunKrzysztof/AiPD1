@@ -1,0 +1,8 @@
+.content{
+    margin: 20px;
+}
+mat-card-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

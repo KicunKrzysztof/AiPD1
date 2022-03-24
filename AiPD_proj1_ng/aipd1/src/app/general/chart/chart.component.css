@@ -1,0 +1,16 @@
+mat-card {
+    margin: 20px;
+}
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.subcontent{
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+}
+a{
+    color: inherit;
+}

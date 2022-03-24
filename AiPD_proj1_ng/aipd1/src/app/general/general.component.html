@@ -1,0 +1,6 @@
+<div *ngFor="let i of charts">
+    <app-chart [chartIndex]="i" [data]="chartsAnalysis[getRealChartIndex(i)]" (removeChart)="remove($event)" (fileChange)="newFileName($event)"></app-chart>
+</div>
+<mat-card>
+    <div style="text-align: center"><button mat-button style="margin: auto" (click)="add()">NOWY</button></div>
+</mat-card>
