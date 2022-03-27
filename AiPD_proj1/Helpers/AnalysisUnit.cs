@@ -134,7 +134,7 @@ namespace AiPD_proj1.Helpers
         {
             var sr = new List<double>();
             for(int i = 0; i < volume.Count; i++)
-                sr.Add(volume[i] < 0.1 && ZCR[i] < 1500 ? 0 : 1);//było 0.02 i 50 ale nie działało
+                sr.Add(volume[i] < 0.02 && ZCR[i] < 50 ? 0 : 1);//było 0.02 i 50 ale nie działało
             this.SR = sr;
         }
         private void CalculateVSTD()
